@@ -6,7 +6,7 @@ def fn_reset_form():
   st.session_state.pop("uploaded_file",None)
   st.rerun()
 
-if "uploaded_file" not in session_state:
+if "uploaded_file" not in st.session_state:
   st.session_state.pop("uploaded_file",None)
 
 with st.form("pdf_form"):

@@ -1,3 +1,4 @@
 requests
 streamlit==1.58.0
 PyMuPDF
+plotly
